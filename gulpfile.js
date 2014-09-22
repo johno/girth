@@ -6,16 +6,19 @@ var cssmin  = require('gulp-minify-css');
 var csslint = require('gulp-csslint');
 var prefix  = require('gulp-autoprefixer');
 
-gulp.task('scss', function() {
-  return gulp.src('scss/*.scss')
-    .pipe(sass())
+gulp.task('css', function() {
+  return gulp.src([
+      'css/furtive.css',
+      'node_modules/normalize.css/normalize.css',
+      'node_modules/colors.css/css/colors.css',
+      'node_modules/padding.css/padding.css',
+      'node_modules/margins.css/margins.css',
+      'node_modules/gray/css/gray.css'])
+    .pipe(concat('c.min.css'))
     .pipe(prefix("last 1 version", "> 1%", "ie 8"))
     .pipe(csslint())
-    .pipe(rename('girth.css'))
-    .pipe(gulp.dest('css'))
     .pipe(cssmin())
-    .pipe(rename('girth.min.css'))
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['scss']);
+gulp.task('default', ['css']);
