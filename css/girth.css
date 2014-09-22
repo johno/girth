@@ -1,21 +1,30 @@
-.quarter-width, .quarter-width-s, .quarter-width-m, .quarter-width-l, .quarter-width-xl {
+.fit-width {
+  max-width: 100%; }
+
+.quarter-width, .quarter-width-s {
   width: 25%; }
 
-.half-width, .half-width-s, .half-width-m, .half-width-l, .half-width-xl {
+.half-width, .half-width-s {
   width: 50%; }
 
-.full-width, .full-width-s, .full-width-m, .full-width-l, .full-width-xl {
+.full-width, .full-width-s {
   display: block;
   width: 100%; }
 
 @media screen and (min-width: 32rem) {
-  .full-width-s, .half-width-s, .quarter-width-s {
-    width: auto; } }
-
-@media screen and (min-width: 48rem) and (max-width: 32rem) {
-  .full-width-s, .half-width-s, .quarter-width-s, .full-width-m, .half-width-m, .quarter-width-m {
-    width: auto; } }
+  .quarter-width-m {
+    width: 25%; }
+  .half-width-m {
+    width: 50%; }
+  .full-width-m {
+    display: block;
+    width: 100%; } }
 
 @media screen and (min-width: 48rem) {
-  .full-width-s, .half-width-s, .quarter-width-s, .full-width-m, .half-width-m, .quarter-width-m .full-width-l, .half-width-l, .quarter-width-l {
-    width: auto; } }
+  .quarter-width-l {
+    width: 25%; }
+  .half-width-l {
+    width: 50%; }
+  .full-width-l {
+    display: block;
+    width: 100%; } }
