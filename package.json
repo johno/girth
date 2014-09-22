@@ -13,14 +13,10 @@
   "keywords": [
     "css",
     "scss",
-    "mobile",
-    "first",
+    "mobile-first",
     "width",
-    "helpers",
     "mobile",
-    "block",
-    "block",
-    "buttons"
+    "block"
   ],
   "author": "John Otander",
   "license": "MIT",
