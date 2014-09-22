@@ -1,3 +1,6 @@
+.fit-width {
+  max-width: 100%; }
+
 .quarter-width, .quarter-width-s, .quarter-width-m, .quarter-width-l, .quarter-width-xl {
   width: 25%; }
 
