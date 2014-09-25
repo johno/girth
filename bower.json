@@ -1,0 +1,25 @@
+{
+  "name": "girth",
+  "version": "0.0.2",
+  "homepage": "https://github.com/johnotander/girth",
+  "authors": [
+    "John Otander <johnotander@gmail.com>"
+  ],
+  "description": "A collection of mobile-first, CSS width helpers.",
+  "keywords": [
+    "css",
+    "scss",
+    "mobile-first",
+    "width",
+    "mobile",
+    "block"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
