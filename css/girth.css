@@ -4,6 +4,9 @@
 .quarter-width, .quarter-width-s {
   width: 25%; }
 
+.third-width, .third-width-s {
+  width: 33.333%; }
+
 .half-width, .half-width-s {
   width: 50%; }
 
@@ -14,6 +17,8 @@
 @media screen and (min-width: 32rem) {
   .quarter-width-m {
     width: 25%; }
+  .third-width-m {
+    width: 33.333%; }
   .half-width-m {
     width: 50%; }
   .full-width-m {
@@ -23,6 +28,8 @@
 @media screen and (min-width: 48rem) {
   .quarter-width-l {
     width: 25%; }
+  .third-width-l {
+    width: 33.333%; }
   .half-width-l {
     width: 50%; }
   .full-width-l {
