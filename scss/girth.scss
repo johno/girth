@@ -9,6 +9,11 @@
   width: 25%;
 }
 
+.third-width,
+.third-width-s {
+  width: 33.333%;
+}
+
 .half-width,
 .half-width-s {
   width: 50%;
@@ -25,6 +30,10 @@
     width: 25%;
   }
 
+  .third-width-m {
+    width: 33.333%;
+  }
+
   .half-width-m {
     width: 50%;
   }
@@ -38,6 +47,10 @@
 @media screen and (min-width: $screen-l) {
   .quarter-width-l {
     width: 25%;
+  }
+
+  .third-width-l {
+    width: 33.333%;
   }
 
   .half-width-l {
