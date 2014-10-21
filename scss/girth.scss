@@ -4,8 +4,8 @@
   max-width: 100%;
 }
 
-.w75,
-.w75-s {
+.w25,
+.w25-s {
   width: 25%;
 }
 
@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: $screen-m) {
-  .w75-m {
+  .w25-m {
     width: 25%;
   }
 
@@ -54,7 +54,7 @@
 }
 
 @media screen and (min-width: $screen-l) {
-  .w75-l {
+  .w25-l {
     width: 25%;
   }
 
