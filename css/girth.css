@@ -1,7 +1,7 @@
 .fit-width {
   max-width: 100%; }
 
-.w75, .w75-s {
+.w25, .w25-s {
   width: 25%; }
 
 .w33, .w33-s {
@@ -18,7 +18,7 @@
   width: 100%; }
 
 @media screen and (min-width: 32rem) {
-  .w75-m {
+  .w25-m {
     width: 25%; }
   .w33-m {
     width: 33.333%; }
@@ -31,7 +31,7 @@
     width: 100%; } }
 
 @media screen and (min-width: 48rem) {
-  .w75-l {
+  .w25-l {
     width: 25%; }
   .w33-l {
     width: 33.333%; }
