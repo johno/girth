@@ -4,60 +4,73 @@
   max-width: 100%;
 }
 
-.quarter-width,
-.quarter-width-s {
+.w75,
+.w75-s {
   width: 25%;
 }
 
-.third-width,
-.third-width-s {
+.w33,
+.w33-s {
   width: 33.333%;
 }
 
-.half-width,
-.half-width-s {
+.w50,
+.w50-s {
   width: 50%;
 }
 
-.full-width,
-.full-width-s {
+.w75,
+.w75-s {
+  width: 75%;
+}
+
+.w100,
+.w100-s {
   display: block;
   width: 100%;
 }
 
 @media screen and (min-width: $screen-m) {
-  .quarter-width-m {
+  .w75-m {
     width: 25%;
   }
 
-  .third-width-m {
+  .w33-m {
     width: 33.333%;
   }
 
-  .half-width-m {
+  .w50-m {
     width: 50%;
   }
 
-  .full-width-m {
+  .w75-m {
+    width: 75%;
+  }
+
+  .w100-m {
     display: block;
     width: 100%;
   }
 }
 
 @media screen and (min-width: $screen-l) {
-  .quarter-width-l {
+  .w75-l {
     width: 25%;
   }
 
-  .third-width-l {
+  .w33-l {
     width: 33.333%;
   }
 
-  .half-width-l {
+  .w50-l {
     width: 50%;
   }
 
-  .full-width-l {
+  .w75-l {
+    width: 75%;
+  }
+
+  .w100-l {
     display: block;
     width: 100%;
   }
